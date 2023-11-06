@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Neved: ");
+            string nev = Console.ReadLine();
+            Console.WriteLine($"Szia, {nev}!");
         }
     }
 }
