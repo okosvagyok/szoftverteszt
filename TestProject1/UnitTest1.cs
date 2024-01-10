@@ -12,5 +12,6 @@ namespace TestProject1
         {
             Assert.Pass();
         }
+        //marci masterclass koding
     }
 }
