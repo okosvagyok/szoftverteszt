@@ -2,8 +2,12 @@
 
 namespace ClassLibrary1
 {
-    public class LinkedList<T> : IList<T>
+    public class ChainedList<T> : IList<T>
     {
+        private class ChainedListItem()
+        {
+            public ChainedListItem Next { get; set; }
+        }
         public T this[int index] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public int Count => throw new NotImplementedException();
